@@ -23,7 +23,9 @@ To support Bentley Men's Hockey's Division 1 coaching staff in roster operations
 The dashboard translates player performance across 20+ junior leagues into projected NCAA outcomes using predictive modeling and historical NCAA data.
 
 ---
+
 ## Dashboard Features
+
 
 ### 📈 Projection Models
 - Freshman NCAA projections
@@ -40,6 +42,7 @@ The dashboard translates player performance across 20+ junior leagues into proje
 - League-adjusted metrics
 - Relative age calculations
 - NCAA development curves
+
 ---
 
 ## Data Pipeline & Modeling
