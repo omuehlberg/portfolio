@@ -54,3 +54,7 @@ a {
     object-fit: contain;
     padding: 15px;
 }
+/* Make interests text smaller */
+p.lead.m-0 {
+    font-size: 1rem;
+}

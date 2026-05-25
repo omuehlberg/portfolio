@@ -67,7 +67,9 @@ To isolate concussion effects:
 ## Key Findings
 ### Career Length
 
-![NHL Concussion Analysis](../img/NHLConcussionAnalysis/nhl.png)
+<p align="center">
+<img src="../img/NHLConcussionAnalysis/nhl.png" width="500">
+</p>
 
 Concussed players averaged:
 
