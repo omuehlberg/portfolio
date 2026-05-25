@@ -2,17 +2,21 @@
   "basics": {
     "name": "Olivia Muehlberg",
     "label": "MS Business Analytics | Hockey Data Analyst",
-    "picture": "headshot.jpg",
+
+    "picture": "img/headshot.jpg",
+
     "email": "omuehlberg@falcon.bentley.edu",
+
     "summary": "I build predictive models and data products that turn complex sports data into actionable decisions. My work combines analytics, research, and visualization to support recruiting strategy, player evaluation, and business insights.",
+
     "profiles": [
       {
-        "network": "LinkedIn",
+        "network": "linkedin",
         "username": "olivia-muehlberg",
         "url": "https://linkedin.com/in/olivia-muehlberg"
       },
       {
-        "network": "GitHub",
+        "network": "github",
         "username": "omuehlberg",
         "url": "https://github.com/omuehlberg"
       }
@@ -20,107 +24,17 @@
   },
 
   "interests": [
-  {
-    "name": "Former Collegiate Soccer Player"
-  },
-  {
-    "name": "Predictive Modeling"
-  },
-  {
-    "name": "Hockey Operations"
-  },
-  {
-    "name": "Data-Driven Decision Making"
-  }
-],
-
-  "projects": [
-
-
     {
-      "name": "Bentley Hockey Projection Dashboard",
-      "featured": true,
-
-      "description":
-      "Built an interactive application that translates junior hockey performance into projected NCAA outcomes for recruiting and roster decisions.",
-
-      "tools":
-      ["R","Shiny","Predictive Modeling","Data Engineering"],
-
-      "highlights": [
-
-        "Integrated data across 20+ junior leagues",
-
-        "Built freshman and career projection models",
-
-        "Implemented comparable-player matching",
-
-        "Created NCAA development curve projections",
-
-        "Delivered decision-support tools for Division I coaching staff"
-      ],
-      
-      "link":
-      "https://omuehlberg.shinyapps.io/BentleyHockey/"
+      "name":"Former Collegiate Soccer Player"
     },
-
     {
-      "name":"NHL Concussion Analytics Research",
-
-      "description":
-      "Undergraduate research project examining the impact of concussions on NHL player value and career outcomes.",
-
-      "tools":
-      ["R","Statistical Analysis","Data Cleaning"],
-
-      "highlights":[
-
-        "Analyzed 500 NHL players",
-
-        "Designed matched-pair methodology",
-
-        "Found approximately two-year reduction in career length",
-
-        "Developed business recommendations for contract strategy"
-      ]
+      "name":"Predictive Modeling"
     },
-
     {
-      "name":"OHL Expansion Market Analysis",
-
-      "description":
-      "Market expansion analysis evaluating potential locations using demographic and hockey market data."
+      "name":"Hockey Operations"
+    },
+    {
+      "name":"Data-Driven Decision Making"
     }
-  ],
-
-  "skills": [
-
-    {
-      "name":"Programming",
-
-      "keywords":
-      ["R","Python","SQL"]
-    },
-
-    {
-      "name":"Analytics",
-
-      "keywords":
-      ["Predictive Modeling",
-      "Machine Learning",
-      "Statistical Analysis",
-      "Data Visualization"]
-    },
-
-    {
-      "name":"Tools",
-
-      "keywords":
-      ["Shiny",
-      "Tableau",
-      "GitHub",
-      "Excel"]
-    }
-
   ]
 }
