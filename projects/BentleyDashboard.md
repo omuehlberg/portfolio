@@ -22,31 +22,25 @@ To support Bentley Men's Hockey's Division 1 coaching staff in roster operations
 
 The dashboard translates player performance across 20+ junior leagues into projected NCAA outcomes using predictive modeling and historical NCAA data.
 
+---
 ## Dashboard Features
 
-<div class="row">
-
-<div class="col-md-6">
-
 ### 📈 Projection Models
-
 - Freshman NCAA projections
 - Career outcome predictions
 - Confidence intervals
 
-</div>
-
-<div class="col-md-6">
-
 ### 🏒 Player Evaluation
-
 - Historical comparables
 - NCAA benchmarks
 - Development curves
 
-</div>
-
-</div>
+### ⚙️ Data Pipeline
+- Integrated 20+ junior leagues
+- League-adjusted metrics
+- Relative age calculations
+- NCAA development curves
+---
 
 ## Data Pipeline & Modeling
 
@@ -82,34 +76,18 @@ Additional components included:
 
 ## Results
 
-<div class="row text-center">
+✅ Automated player evaluation workflows  
 
-<div class="col-md-4">
+✅ Reduced manual preprocessing  
 
-### 20+
+✅ Delivered decision-ready outputs for coaching staff  
 
-Junior leagues integrated
-
-</div>
-
-<div class="col-md-4">
-
-### Automated
-
-Recruiting workflows
-
-</div>
-
-<div class="col-md-4">
-
-### Decision Support
-
-Built for Division I coaches
-
-</div>
-
-</div>
+---
 
 ## Live Demo
 
-[View Bentley Hockey Dashboard](https://omuehlberg.shinyapps.io/BentleyHockey/)
+<a class="btn btn-dark"
+href="https://omuehlberg.shinyapps.io/BentleyHockey/"
+target="_blank">
+Launch Dashboard
+</a>
