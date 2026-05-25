@@ -9,9 +9,17 @@
 
     "summary": "I build predictive models and data products that turn complex sports data into actionable decisions. My work combines analytics, research, and visualization to support recruiting strategy, player evaluation, and business insights."
   },
-  "interests":[
-    {"interests": "Former collegiate soccer player pursuing a career in sports analytics, with interests in predictive modeling, hockey operations, and data-driven decision making."}
-  ],
+  "interests": [
+  {
+    "name": "Sports Analytics",
+    "keywords": [
+      "Former collegiate soccer player",
+      "Predictive Modeling",
+      "Hockey Operations",
+      "Data-Driven Decision Making"
+    ]
+  }
+],
 
   "projects": [
 
