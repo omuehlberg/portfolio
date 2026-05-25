@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/BentleyDashboard/bentleyhockey.png
 title: "Bentley Hockey Projection Dashboard"
-date: 2027
+date: 2026
 published: true
 
 labels:
@@ -18,26 +18,49 @@ summary: "Interactive recruiting and player evaluation dashboard translating jun
 
 ## Overview
 
-Built an interactive analytics application for Bentley Men's Ice Hockey to support recruiting and roster decisions.
+To support Bentley Men's Hockey's Division 1 coaching staff in roster operations and recruiting, I built an interactive analytics application.
 
 The dashboard translates player performance across 20+ junior leagues into projected NCAA outcomes using predictive modeling and historical NCAA data.
 
 ## Key Features
 
-- Integrated and standardized data across 20+ junior leagues
-- Built freshman and career projection models
-- Developed comparable-player matching
-- Created NCAA development curve projections
-- Added position-specific performance benchmarks
-- Designed decision support tools for Division I coaches
+The application allows coaches to:
+- Input player performance metrics
+- Generate projected NCAA performance
+- Compare players against historical benchmarks
+- Visualize expected development curves
 
-## Tools Used
+## Data Pipeline & Modeling
 
-- R
-- Shiny
-- dplyr
-- Predictive Modeling
-- Data Engineering
+The project required integrating and standardizing player data across more than 20 junior leagues.
+
+### Feature Engineering
+
+Key variables included:
+
+- Junior points-per-game trends
+- League-adjusted scoring metrics
+- Relative age
+- Historical NCAA development curves
+- Games played and prior season progression
+
+### Modeling Approach
+
+Two predictive models were developed:
+
+**Freshman Projection Model**
+
+- Predict first-year NCAA production
+
+**Career Projection Model**
+
+- Estimate long-term player outcomes
+
+Additional components included:
+
+- Comparable player matching
+- Position-specific benchmarks
+- Confidence intervals for projections
 
 ## Results
 
