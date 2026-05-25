@@ -9,6 +9,18 @@
 
     "summary": "I build predictive models and data products that turn complex sports data into actionable decisions. My work combines analytics, research, and visualization to support recruiting strategy, player evaluation, and business insights."
   },
+  "profiles": [
+  {
+    "network": "LinkedIn",
+    "username": "olivia-muehlberg",
+    "url": "https://linkedin.com/in/olivia-muehlberg"
+  },
+  {
+    "network": "GitHub",
+    "username": "omuehlberg",
+    "url": "https://github.com/omuehlberg"
+  }
+],
   "interests": [
   {
     "name": "Former Collegiate Soccer Player"
