@@ -11,13 +11,16 @@
   },
   "interests": [
   {
-    "name": "Sports Analytics",
-    "keywords": [
-      "Former collegiate soccer player",
-      "Predictive Modeling",
-      "Hockey Operations",
-      "Data-Driven Decision Making"
-    ]
+    "name": "Former Collegiate Soccer Player"
+  },
+  {
+    "name": "Predictive Modeling"
+  },
+  {
+    "name": "Hockey Operations"
+  },
+  {
+    "name": "Data-Driven Decision Making"
   }
 ],
 
