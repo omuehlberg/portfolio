@@ -2,25 +2,23 @@
   "basics": {
     "name": "Olivia Muehlberg",
     "label": "MS Business Analytics | Hockey Data Analyst",
-
     "picture": "headshot.jpg",
-
     "email": "omuehlberg@falcon.bentley.edu",
+    "summary": "I build predictive models and data products that turn complex sports data into actionable decisions. My work combines analytics, research, and visualization to support recruiting strategy, player evaluation, and business insights.",
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "olivia-muehlberg",
+        "url": "https://linkedin.com/in/olivia-muehlberg"
+      },
+      {
+        "network": "GitHub",
+        "username": "omuehlberg",
+        "url": "https://github.com/omuehlberg"
+      }
+    ]
+  },
 
-    "summary": "I build predictive models and data products that turn complex sports data into actionable decisions. My work combines analytics, research, and visualization to support recruiting strategy, player evaluation, and business insights."
-  },
-  "profiles": [
-  {
-    "network": "LinkedIn",
-    "username": "olivia-muehlberg",
-    "url": "https://linkedin.com/in/olivia-muehlberg"
-  },
-  {
-    "network": "GitHub",
-    "username": "omuehlberg",
-    "url": "https://github.com/omuehlberg"
-  }
-],
   "interests": [
   {
     "name": "Former Collegiate Soccer Player"
@@ -61,7 +59,7 @@
 
         "Delivered decision-support tools for Division I coaching staff"
       ],
-
+      
       "link":
       "https://omuehlberg.shinyapps.io/BentleyHockey/"
     },
