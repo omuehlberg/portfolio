@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/ohl.png
+image: img/ohl.jpg
 title: "OHL Expansion Market Analysis"
 date: 2026
 published: true
