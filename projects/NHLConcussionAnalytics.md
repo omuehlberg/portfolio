@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/concussion-analysis.png
+image: img/nhl2.png
 title: "NHL Concussion Analytics Research"
 date: 2025
 published: true
@@ -65,7 +65,7 @@ To isolate concussion effects:
 ---
 
 ## Key Findings
-
+img/nhl.png
 ### Career Length
 
 Concussed players averaged:

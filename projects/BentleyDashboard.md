@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/hockey-dashboard.png
+image: img/bentleyhockey.png
 title: "Bentley Hockey Projection Dashboard"
 date: 2026
 published: true
