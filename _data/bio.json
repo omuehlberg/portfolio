@@ -23,19 +23,16 @@
 
   "interests": [
     {
-      "name":"Former Collegiate Soccer Player"
+      "name": "Sports Analytics"
     },
     {
       "name":"Predictive Modeling"
     },
     {
       "name":"Hockey Operations"
-    },
+    }
     {
-      "name":"OHL Expansion Market Analysis",
-
-      "description":
-      "Market expansion analysis evaluating potential locations using demographic and hockey market data."
+      "name":"Former Collegiate Athlete"
     }
   ],
 
@@ -45,7 +42,7 @@
       "name":"Programming",
 
       "keywords":
-      ["R","Python","SQL"]
+      ["R","Python","SQL","HTML"]
     },
 
     {
@@ -63,9 +60,12 @@
 
       "keywords":
       ["Shiny",
+      "Pandas",
       "Tableau",
       "GitHub",
-      "Excel"]
+      "Excel",
+      "Microsoft Suite",
+      "Google Suite"]
     }
 
   ]
