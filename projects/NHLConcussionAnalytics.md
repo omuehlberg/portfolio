@@ -90,7 +90,7 @@ To isolate concussion effects:
   <!-- Image -->
   <div class="col-md-7 text-center">
 
-    <img src="{{ site.baseurl }}/img/NHLConcussionAnalysis/nhl.png"
+    <img src="{{ site.baseurl }}/img/NHLConcussionAnalysis/nh2l.png"
          class="img-fluid rounded"
          style="max-width: 700px;">
 
@@ -98,7 +98,7 @@ To isolate concussion effects:
   <!-- Image -->
   <div class="col-md-7 text-center">
 
-    <img src="{{ site.baseurl }}/img/NHLConcussionAnalysis/nhl2.png"
+    <img src="{{ site.baseurl }}/img/NHLConcussionAnalysis/nhl.png"
          class="img-fluid rounded"
          style="max-width: 700px;">
 
