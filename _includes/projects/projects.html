@@ -7,34 +7,24 @@
     </div>
 
     <div class="vstack gap-3">
-      {% assign featuredProjects = site.projects | where: "featured", true %}
-{% assign regularProjects = site.projects | where_exp: "item", "item.featured != true" | sort: "date" | reverse %}
-      {% for project in featuredProjects %}
-  {% include projects/project-card.html project=project %}
-{% endfor %}
 
-{% for project in regularProjects %}
-  {% include projects/project-card.html project=project %}
-{% endfor %}
+      {% assign project_pages = site.pages | where: "type", "project" %}
+
+      {% assign featured_projects = project_pages | where: "featured", true %}
+      {% assign regular_projects = project_pages | where_exp: "item", "item.featured != true" | sort: "date" | reverse %}
+
+      {% for page in featured_projects %}
         {% unless page.draft %}
           {% include projects/project-card.html page=page %}
         {% endunless %}
-        {% if forloop.index == include.limit %}
-          {% break %}
-        {% endif %}
       {% endfor %}
+
+      {% for page in regular_projects %}
+        {% unless page.draft %}
+          {% include projects/project-card.html page=page %}
+        {% endunless %}
+      {% endfor %}
+
     </div>
-
-    {% assign not_draft = 0 %}
-      {% for page in project_pages %}
-      {% unless page.draft %}
-        {% assign not_draft = not_draft | plus: 1 %}
-      {% endunless %}
-    {% endfor %}
-
-    {% if not_draft > include.limit %}
-      <p class="text-center pt-4"><a href="{{ site.baseurl}}/projects/">See all {{ not_draft }} projects</a></p>
-    {% endif %}
-
   </div>
 </div>
