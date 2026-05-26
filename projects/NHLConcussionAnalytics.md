@@ -16,15 +16,11 @@ labels:
 
 summary: "Research project analyzing the impact of concussions on NHL player performance, career trajectory, and market value."
 
----
-
-## Overview
-
 Professional sports research frequently examines the medical impact of concussions, but less attention has been given to their financial consequences.
 
 This project investigated whether concussions influence player value, contract efficiency, and long-term career outcomes in the NHL.
 
-Conducted through Bentley University's Undergraduate Research Program and the Valente Center.
+This projected was conducted and sponsored by Bentley University's Undergraduate Research Program and the Valente Center.
 
 ---
 
@@ -65,18 +61,42 @@ To isolate concussion effects:
 
 ---
 
-## Key Findings
-### Career Length
+<hr class="my-5">
 
-<p align="center">
-<img src="../img/NHLConcussionAnalysis/nhl.png" width="500">
-</p>
+<div class="row align-items-center">
 
-Concussed players averaged **8.3 seasons**
+  <!-- Text -->
+  <div class="col-md-5">
 
-Control players averaged **10.0 seasons**
+    <h1>Key Findings</h1>
 
-→ approximately **2 fewer NHL seasons**
+    <h2>Career Length</h2>
+
+    <br>
+
+    <p>
+      Concussed players averaged <strong>8.3 seasons</strong>
+    </p>
+
+    <p>
+      Control players averaged <strong>10.0 seasons</strong>
+    </p>
+
+    <p>
+      → approximately <strong>2 fewer NHL seasons</strong>
+    </p>
+
+  </div>
+
+  <!-- Image -->
+  <div class="col-md-7 text-center">
+
+    <img src="{{ site.baseurl }}/img/NHLConcussionAnalysis/nhl2.png"
+         class="img-fluid rounded"
+         style="max-width: 700px;">
+
+  </div>
+</div>
 
 ---
 

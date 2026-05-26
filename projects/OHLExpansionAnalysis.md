@@ -16,15 +16,9 @@ labels:
 
 summary: "Expansion market analysis evaluating potential OHL locations using demographic, attendance, and hockey market data."
 
----
-
-## Overview
-
 The Ontario Hockey League periodically evaluates opportunities for growth and expansion.
 
 This project examined potential expansion markets by combining demographic information, hockey participation trends, and business indicators to identify cities with strong long-term potential.
-
----
 
 ## Business Question
 
@@ -34,14 +28,13 @@ Which markets provide the strongest opportunity for future OHL expansion?
 
 ## Data Sources
 
-Data included:
-
 - Population trends
 - Existing hockey infrastructure
 - Attendance figures
 - Hockey participation rates
 - Market demographics
 - Geographic considerations
+Data included in this analysis was sourced from national census data, team and league websites, and geographic mapping sources
 
 ---
 

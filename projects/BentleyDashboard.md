@@ -22,8 +22,6 @@ target="_blank">
 Launch Dashboard
 </a>
 
-## Overview
-
 To support Bentley Men's Hockey's Division 1 coaching staff in roster operations and recruiting, I built an interactive analytics application.
 
 The dashboard translates player performance across 20+ junior leagues into projected NCAA outcomes using predictive modeling and historical NCAA data.
