@@ -121,3 +121,17 @@ Findings suggest organizations may benefit from:
 - ggplot2
 - Statistical Analysis
 - Data Cleaning
+
+## Full Research Paper and Presentation
+
+<a class="btn btn-dark"
+href="../files/ValenteAnalysisPaper.pdf"
+target="_blank">
+Download Full Paper
+</a>
+
+<a class="btn btn-dark"
+href="../files/ValenteFinalPresentation.pdf"
+target="_blank">
+Download Full Paper
+</a>

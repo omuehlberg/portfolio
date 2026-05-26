@@ -96,3 +96,12 @@ Findings can support:
 - Excel
 - Data Visualization
 - Market Analysis
+
+---
+## Full Research Paper
+
+<a class="btn btn-dark"
+href="../files/OHL_Expansion_Paper.pdf"
+target="_blank">
+Download Full Paper
+</a>
