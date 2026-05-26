@@ -97,8 +97,7 @@ Findings can support:
 - Data Visualization
 - Market Analysis
 
----
-## Full Research Paper
+--- 
 
 <a class="btn btn-dark"
 href="{{ site.baseurl }}/files/OHLNeutralSiteProposal.pdf"

@@ -122,16 +122,20 @@ Findings suggest organizations may benefit from:
 - Statistical Analysis
 - Data Cleaning
 
-## Full Research Paper and Presentation
+---
+
+<div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:15px;">
 
 <a class="btn btn-dark"
 href="{{ site.baseurl }}/files/ValenteAnalysisPaper.pdf"
 target="_blank">
-📄 Download Full Paper
+📄 Full Paper
 </a>
 
 <a class="btn btn-dark"
 href="{{ site.baseurl }}/files/ValenteFinalPresentation.pdf"
 target="_blank">
-📊 Download Presentation
+📊 Presentation
 </a>
+
+</div>
