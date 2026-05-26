@@ -5,8 +5,8 @@
     "picture": "img/headshot/headshot2.jpeg",
     "email": "omuehlberg@falcon.bentley.edu",
 
-    "summary": "I build predictive models and data products that turn complex sports data into actionable decisions. My work combines analytics, research, and visualization to support recruiting strategy, player evaluation, and business insights.",
-
+    "summary": "I’m an MS Business Analytics student and data analyst with experience building predictive models, conducting research, and developing analytics tools for sports applications. I’m interested in using data to improve decision-making across performance, operations, and business strategy.",
+    "technicalSummary": "R | Python | SQL | HTML | Shiny | Tableau | GitHub | Excel | Microsoft Suite | Google Suite",
     "profiles": [
       {
         "network": "linkedin",
