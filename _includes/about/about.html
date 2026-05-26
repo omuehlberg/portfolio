@@ -10,7 +10,7 @@
              alt="Olivia Muehlberg">
       </div>
 
-      <!-- About Content -->
+      <!-- About -->
       <div class="col-lg-8">
 
         <h1 class="display-4 text-center">
@@ -27,7 +27,6 @@
 
         <hr class="my-4">
 
-        <!-- Interests -->
         <p class="m-0 interests-text">
           <strong>Interests:</strong>
           {% for interest in site.data.bio.interests %}
@@ -37,7 +36,6 @@
 
         <hr class="my-4">
 
-        <!-- Technical Skills -->
         <p class="m-0 interests-text">
           <strong>Technical Skills:</strong><br>
           R • Python • SQL • Shiny • Tableau • GitHub • Excel • Predictive Modeling • Statistical Analysis
@@ -45,27 +43,22 @@
 
         <hr class="my-4">
 
-        <!-- Social Icons -->
-        <div class="row justify-content-center">
+        <!-- Social icons -->
+        <div style="display:flex; justify-content:center; gap:30px;">
 
-          {% if site.data.bio.basics.email %}
-          {% capture url %}mailto:{{ site.data.bio.basics.email }}{% endcapture %}
-          <div class="col-2 text-center">
-            {% include about/social.html url=url name='envelope-fill' %}
-          </div>
-          {% endif %}
+          <a href="mailto:omuehlberg@falcon.bentley.edu" target="_blank">
+            ✉️
+          </a>
 
-          <div class="col-2 text-center">
-            {% include about/social.html
-            url='https://linkedin.com/in/olivia-muehlberg'
-            name='linkedin' %}
-          </div>
+          <a href="https://linkedin.com/in/olivia-muehlberg" target="_blank">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
+                 width="35">
+          </a>
 
-          <div class="col-2 text-center">
-            {% include about/social.html
-            url='https://github.com/omuehlberg'
-            name='github' %}
-          </div>
+          <a href="https://github.com/omuehlberg" target="_blank">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                 width="35">
+          </a>
 
         </div>
 
