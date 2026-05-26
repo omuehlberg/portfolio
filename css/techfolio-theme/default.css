@@ -61,3 +61,13 @@ p.lead.m-0 {
 .interests-text{
     font-size:0.9rem;
 }
+
+img {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+hr {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
