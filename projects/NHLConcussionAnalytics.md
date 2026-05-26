@@ -72,13 +72,9 @@ To isolate concussion effects:
 <img src="../img/NHLConcussionAnalysis/nhl.png" width="500">
 </p>
 
-Concussed players averaged:
+Concussed players averaged **8.3 seasons**
 
-**8.3 seasons**
-
-Control players averaged:
-
-**10.0 seasons**
+Control players averaged **10.0 seasons**
 
 → approximately **2 fewer NHL seasons**
 

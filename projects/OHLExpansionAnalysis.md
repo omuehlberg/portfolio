@@ -60,7 +60,7 @@ Approach included:
 
 Potential markets demonstrated differences in:
 
-- Population growth
+- Population
 - Existing fan interest
 - Infrastructure availability
 - Long-term business opportunity
@@ -73,7 +73,7 @@ The analysis highlighted how expansion decisions involve balancing short-term de
 
 Limitations included:
 
-- Limited public youth hockey participation data
+- Limited public youth hockey participation data that could further inform market interest
 - Difficulty measuring long-term fan engagement
 - Expansion decisions relying on multiple qualitative factors
 
@@ -82,7 +82,6 @@ Limitations included:
 ## Business Impact
 
 Findings can support:
-
 - Expansion planning
 - Market evaluation strategy
 - Fan development initiatives
