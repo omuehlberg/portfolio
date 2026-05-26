@@ -60,8 +60,6 @@ To isolate concussion effects:
 - Centered careers around first concussion event ("Year 0")
 - Tracked trends before and after injury
 
----
-
 <hr class="my-5">
 
 <div class="row align-items-center">
@@ -97,6 +95,15 @@ To isolate concussion effects:
          style="max-width: 700px;">
 
   </div>
+  <!-- Image -->
+  <div class="col-md-7 text-center">
+
+    <img src="{{ site.baseurl }}/img/NHLConcussionAnalysis/nhl2.png"
+         class="img-fluid rounded"
+         style="max-width: 700px;">
+
+  </div>
+
 </div>
 
 ---
