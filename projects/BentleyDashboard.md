@@ -15,14 +15,11 @@ labels:
 summary: "Interactive recruiting and player evaluation dashboard translating junior hockey performance into projected NCAA outcomes."
 
 ---
-## Live Demo
-
 <a class="btn btn-dark"
 href="https://omuehlberg.shinyapps.io/BentleyHockey/"
 target="_blank">
 Launch Dashboard
 </a>
----
 
 ## Overview
 
