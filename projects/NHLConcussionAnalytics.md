@@ -125,13 +125,13 @@ Findings suggest organizations may benefit from:
 ## Full Research Paper and Presentation
 
 <a class="btn btn-dark"
-href="../files/ValenteAnalysisPaper.pdf"
+href="{{ site.baseurl }}/files/ValenteAnalysisPaper.pdf"
 target="_blank">
-Download Full Paper
+📄 Download Full Paper
 </a>
 
 <a class="btn btn-dark"
-href="../files/ValenteFinalPresentation.pdf"
+href="{{ site.baseurl }}/files/ValenteFinalPresentation.pdf"
 target="_blank">
-Download Full Paper
+📊 Download Presentation
 </a>

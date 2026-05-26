@@ -101,7 +101,7 @@ Findings can support:
 ## Full Research Paper
 
 <a class="btn btn-dark"
-href="../files/OHL_Expansion_Paper.pdf"
+href="{{ site.baseurl }}/files/OHLNeutralSiteProposal.pdf"
 target="_blank">
-Download Full Paper
+📄 Read Full Analysis
 </a>
