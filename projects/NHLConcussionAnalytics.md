@@ -3,6 +3,7 @@ layout: project
 type: project
 image: img/NHLConcussionAnalysis/nhl2.png
 title: "NHL Concussion Analytics Research"
+order: 3
 date: 2025
 published: true
 
