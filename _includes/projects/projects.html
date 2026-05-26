@@ -7,8 +7,15 @@
     </div>
 
     <div class="vstack gap-3">
-      {% assign project_pages = site.pages | where: "type", "project" | sort: "date" | reverse %}
-      {% for page in project_pages %}
+      {% assign featuredProjects = site.projects | where: "featured", true %}
+{% assign regularProjects = site.projects | where_exp: "item", "item.featured != true" | sort: "date" | reverse %}
+      {% for project in featuredProjects %}
+  {% include projects/project-card.html project=project %}
+{% endfor %}
+
+{% for project in regularProjects %}
+  {% include projects/project-card.html project=project %}
+{% endfor %}
         {% unless page.draft %}
           {% include projects/project-card.html page=page %}
         {% endunless %}
