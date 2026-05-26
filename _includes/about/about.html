@@ -1,63 +1,68 @@
-<div style="background-color: var(--tf-page-bg-color)" class="bg-gradient py-3">
-  <div class="container">
-    <div class="row align-items-start">
+<div style="background-color: var(--tf-page-bg-color)" class="bg-gradient py-5">
+  <div class="container text-center">
 
-      <!-- Headshot -->
-      <div class="col-lg-4 text-center">
-        <img width="300px"
-             src="{{ site.baseurl }}/{{ site.data.bio.basics.picture }}"
-             class="d-block mx-auto rounded-circle"
-             alt="Olivia Muehlberg">
-      </div>
+    <!-- Headshot -->
+    <img width="240px"
+         src="{{ site.baseurl }}/{{ site.data.bio.basics.picture }}"
+         class="rounded-circle mb-4"
+         alt="Olivia Muehlberg">
 
-      <!-- About -->
-      <div class="col-lg-8">
+    <!-- Name -->
+    <h1 class="display-3">
+      {{ site.data.bio.basics.name }}
+    </h1>
 
-        <h1 class="display-4 text-center">
-          {{ site.data.bio.basics.name }}
-        </h1>
+    <!-- Degree Line -->
+    <p class="lead">
+      {{ site.data.bio.basics.label }}
+    </p>
 
-        <p class="lead text-center">
-          {{ site.data.bio.basics.label }}
-        </p>
+    <!-- Summary -->
+    <div class="mx-auto" style="max-width: 900px;">
+      <p class="lead">
+        {{ site.data.bio.basics.summary }}
+      </p>
+    </div>
 
-        <p class="lead">
-          {{ site.data.bio.basics.summary }}
-        </p>
+    <hr class="my-4">
 
-        <hr class="my-4">
+    <!-- Interests -->
+    <p class="m-0 interests-text">
+      <strong>Interests:</strong>
+      {% for interest in site.data.bio.interests %}
+        {{ interest.name }}{% unless forloop.last %}, {% endunless %}
+      {% endfor %}
+    </p>
 
-        <p class="m-0 interests-text">
-          <strong>Interests:</strong>
-          {% for interest in site.data.bio.interests %}
-            {{ interest.name }}{% unless forloop.last %}, {% endunless %}
-          {% endfor %}
-        </p>
+    <hr class="my-4">
 
-        <hr class="my-4">
+    <!-- Technical Skills -->
+    <p class="m-0 interests-text">
+      <strong>Technical Skills:</strong>
+      R | Python | SQL | Tableau | GitHub | Microsoft Suite | Google Workspace
+    </p>
 
-        <p class="m-0 interests-text">
-          <strong>Technical Skills:</strong>
-          R | Python | SQL | Tableau | GitHub | Microsoft Suite | Google Workspace
-        </p>
+    <hr class="my-4">
 
-        <hr class="my-4">
+    <!-- Social Icons -->
+    <div style="display:flex;
+                justify-content:center;
+                align-items:center;
+                gap:40px;">
 
-<div style="display:flex;
-            justify-content:center;
-            align-items:center;
-            gap:40px;">
-
-    <a href="https://linkedin.com/in/olivia-muehlberg"
-       target="_blank">
+      <a href="https://linkedin.com/in/olivia-muehlberg"
+         target="_blank">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
              width="40">
-    </a>
+      </a>
 
-    <a href="https://github.com/omuehlberg"
-       target="_blank">
+      <a href="https://github.com/omuehlberg"
+         target="_blank">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
              width="40">
-    </a>
+      </a>
 
+    </div>
+
+  </div>
 </div>
