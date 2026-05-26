@@ -15,6 +15,7 @@ labels:
   - Sports Analytics
 
 summary: "Research project analyzing the impact of concussions on NHL player performance, career trajectory, and market value."
+---
 
 Professional sports research frequently examines the medical impact of concussions, but less attention has been given to their financial consequences.
 
