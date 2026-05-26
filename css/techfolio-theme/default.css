@@ -71,3 +71,11 @@ hr {
     margin-top: 35px;
     margin-bottom: 35px;
 }
+.interests-text {
+  font-size: 0.95rem;
+}
+
+.tf-social {
+  width: 32px;
+  height: 32px;
+}
